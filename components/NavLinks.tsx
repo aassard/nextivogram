@@ -16,29 +16,12 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { name: "Accueil", href: "/dashboard", icon: Home },
-  // {
-  //   name: "Recherche",
-  //   href: "/dashboard/search",
-  //   icon: Search,
-  //   hideOnMobile: true,
-  // },
-  // { name: "Explorer", href: "/dashboard/explore", icon: Compass },
-  // {
-  //   name: "Reels",
-  //   href: "/dashboard/reels",
-  //   icon: Clapperboard,
-  // },
-  // {
-  //   name: "Messages",
-  //   href: "/dashboard/messages",
-  //   icon: MessageCircle,
-  // },
-  // {
-  //   name: "Notifications",
-  //   href: "/dashboard/notifications",
-  //   icon: Heart,
-  //   hideOnMobile: true,
-  // },
+  {
+    name: "Recherche",
+    href: "/dashboard/search",
+    icon: Search,
+    hideOnMobile: true,
+  },
   {
     name: "Créer",
     href: "/dashboard/create",

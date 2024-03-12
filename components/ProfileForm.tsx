@@ -86,9 +86,9 @@ function ProfileForm({ profile }: { profile: UserWithExtras }) {
                   </FormControl>
                 </div>
                 <FormDescription className="md:ml-24 text-xs">
-                  La modification de vos liens n'est disponible que sur mobile.
-                  Visiter le Application Ivogram et modifiez votre profil pour
-                  changer les sites Web dans votre biographie.
+                  La modification de vos liens n&apos;est disponible que sur
+                  mobile. Visiter le Application Ivogram et modifiez votre
+                  profil pour changer les sites Web dans votre biographie.
                 </FormDescription>
                 <FormMessage className="md:ml-24" />
               </FormItem>

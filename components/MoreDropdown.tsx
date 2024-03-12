@@ -90,7 +90,7 @@ function MoreDropdown() {
               onClick={() => setShowModeToggle(true)}
             >
               <Moon size={20} />
-              <p>Changer d'apparence</p>
+              <p>Changer d&apos;apparence</p>
             </DropdownMenuItem>
 
             <DropdownMenuItem className="menuItem" onClick={() => signOut()}>
@@ -104,7 +104,7 @@ function MoreDropdown() {
           <>
             <div className="flex items-center border-b border-gray-200 dark:border-neutral-700 py-3.5 px-2.5">
               <ChevronLeft size={18} onClick={() => setShowModeToggle(false)} />
-              <p className="font-bold ml-1">Changer d'apparence</p>
+              <p className="font-bold ml-1">Changer d&apos;apparence</p>
               {theme === "dark" ? (
                 <Moon size={20} className="ml-auto" />
               ) : (

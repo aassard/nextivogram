@@ -70,7 +70,7 @@ async function SinglePost({ id }: { id: string }) {
           {post.comments.length === 0 && (
             <div className="flex flex-col items-center gap-1.5 flex-1 justify-center">
               <p className="text-xl lg:text-2xl font-extrabold">
-                Aucun commentaire pour l'instant.
+                Aucun commentaire pour l&apos;instant.
               </p>
               <p className="text-sm font-medium">Démarrer la conversation.</p>
             </div>

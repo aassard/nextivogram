@@ -39,7 +39,9 @@ function FollowingModal({
           </DialogTitle>
         </DialogHeader>
 
-        {following?.length === 0 && <p>Cet utilisateur n'a aucun abonné.</p>}
+        {following?.length === 0 && (
+          <p>Cet utilisateur n&apos;a aucun abonné.</p>
+        )}
 
         <ScrollArea className="min-h-fit max-h-[350px]">
           {following?.map((following) => (

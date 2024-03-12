@@ -7,8 +7,8 @@ export default function NotFound() {
       <Frown className="w-10 text-gray-400" />
       <h2 className="text-xl font-semibold">404 Not Found</h2>
       <p>
-        La page que vous recherchez n'existe pas. Veuillez vérifier l'URL ou
-        retourner.
+        La page que vous recherchez n&apos;existe pas. Veuillez vérifier
+        l&apos;URL ou retourner.
       </p>
       <Link
         href="/dashboard"
